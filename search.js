@@ -10,10 +10,12 @@ const searchString = 'Zara';
 // toLowerCase()
 const lyricsLowerCase = lyrics.toLowerCase();
 const doesExist = lyricsLowerCase.includes(searchString);
-// console.log(doesExist);
+const doesExistOneLine = lyrics.toLowerCase().includes(searchString.toLowerCase());
+console.log(doesExist);
+console.log(doesExistOneLine);
 
 // toUpperCase()
 const write = 'MAIN';
 const lyricsUpperCase = write.toUpperCase();
 const exist = lyricsUpperCase.includes(write);
-console.log(exist);
+ console.log(exist);
