@@ -4,6 +4,8 @@ const userInput = 'blackpink';
 console.log(userName.toLowerCase());
 // toUpperCase() deyar reason hocche joto letter ase sob boro word hoye jabe. For Example : 'blackPink' Output hbe: BLACKPINK.
 console.log(userInput.toUpperCase());
+// toLocalLowerCase() deyar reason hocche, loaction provide kora
+console.log(userName.toLocaleLowerCase());
 if( userName === userInput){
     console.log('valid user')
 }
