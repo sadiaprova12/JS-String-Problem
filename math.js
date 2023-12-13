@@ -13,3 +13,12 @@ if(gap < 5){
 else{
     console.log('You guys stay a part');
 }
+
+
+//-----------------
+//
+//-----------------
+
+const number = 2.4598;
+const fullNumber = Math.round(number);
+console.log(fullNumber);
