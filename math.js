@@ -21,4 +21,7 @@ else{
 
 const number = 2.4598;
 const fullNumber = Math.round(number);
-console.log(fullNumber);
+// console.log(fullNumber);
+const number1 = 6.67;
+const fullNum = Math.round(number1);
+console.log(fullNum);
