@@ -8,3 +8,6 @@ const chars = lyrics.split('');
 
 const partial = lyrics.slice(0, 4);
 console.log(partial);
+
+const partial2 = lyrics.substring(5, 8);
+console.log(partial2);
