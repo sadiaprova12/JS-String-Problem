@@ -1,2 +1,4 @@
 const lyrics = 'Zara Sa Dil Main';
-console.log(lyrics);
+const parts = lyrics.split(' ');
+const sentences = lyrics.split(' ');
+console.log(parts);
