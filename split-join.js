@@ -11,3 +11,10 @@ console.log(partial);
 
 const partial2 = lyrics.substring(5, 8);
 console.log(partial2);
+
+//M mdn web docs String.prototype.at()
+
+
+const line = ['La La Lala', 'Lala la la'];
+const newSong = line.join(' : ');
+console.log(newSong);
