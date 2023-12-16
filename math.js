@@ -38,7 +38,7 @@ const result3 = Math.floor(456.259);
 // const random = Math.round(Math.random()*100);
 // console.log(random);
 for(let i = 0; i < 20; i++){
-    const random = Math.round(Math.random()*100);
+    const random = Math.round(Math.random()*6);
     console.log(random);
 }
 // mdn Math
