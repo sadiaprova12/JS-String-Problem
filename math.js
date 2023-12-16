@@ -28,4 +28,17 @@ const fullNum = Math.round(number1);
 const result2 = Math.ceil(2.00001);
 // console.log(result2);
 const result3 = Math.floor(456.259);
-console.log(result3);
+// console.log(result3);
+
+//-----------------
+// Random
+
+// console.log(Math.random());
+// const random = Math.random()*100;
+// const random = Math.round(Math.random()*100);
+// console.log(random);
+for(let i = 0; i < 20; i++){
+    const random = Math.round(Math.random()*100);
+    console.log(random);
+}
+// mdn Math
