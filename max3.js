@@ -11,3 +11,13 @@ else if(dela > jim && dela > chinku){
 else{
     console.log('chinku will get the cake');
 }
+
+Math.max(12, 45);
+
+
+// Task: 1
+// Write a funstion that will take 3 numbers will return the max number
+// Write a function that wi;; take 3 parameters and will reyurn the min number
+
+// First time do it using if-else
+// Second time do it using Math.min or Math.mx
