@@ -7,13 +7,11 @@ function reverseWords(str){
         const element = words[i];
         result.push(element);
     }
-    console.log(result);
+    // console.log(result);
+    //reverse words in sentence
+    const reversed = result.join(' ');
+    return reversed;
 }
-
-
-
-
-
 
 const myString = 'I am a goos girl';
 reverseWords(myString);
